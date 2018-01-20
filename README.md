@@ -1,27 +1,12 @@
-Latte For Phpbb 3.2
+Milky
 =============================
 
-Style for phpBB 3.2
+Style for phpBB 3.2, copied from "Latte"
 
 Requirements:
 
 - phpBB 3.2.2
 - prosilver
-
-Style come with 2 color variations :
-- Latte (default)
-- Latte Red
-
-How to install a color declination
-The color variations for Latte are available as inherited styles.
-
-Prerequisites
-To install a color variation, you must first install the Latte style.
-
-
-## Download
-https://github.com/MrGabatt/LatteForPhpbb32/archive/master.zip
-
 
 ## License
 IMPORTANT: This license does not apply to files in directory theme/fonts/
@@ -54,11 +39,9 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-The views and conclusions contained in the software and documentation are those
-of the authors and should not be interpreted as representing official policies, 
-either expressed or implied, of the FreeBSD Project.
-
 ## Autor
 [Arty](https://www.artodia.com)
 
 Ported phpBB 3.2.x version MrGabatt
+
+Milky - Modified by [Chang Zhao](https://github.com/chang-zhao)
