@@ -4,3 +4,99 @@
 //	This file requires SASS compiler.
 //	You can find instructions here: http://www.artodia.com/phpbb-31-tutorials/compile-theme/
 //
+
+.page-body .inner:first-child > .topiclist:first-child {
+  display: none;
+}
+.stat-block.permissions p {
+  margin: 0 4px;
+}
+dd.posts {
+  background: url('./images/col-replies.png') center center / contain no-repeat;
+}
+dd.views {
+  background: url('./images/col-views.png') center center / contain no-repeat;
+}
+.top-anchor {
+  float: left;
+}
+ul.topiclist dt .list-inner {
+  margin-right: none;	/* string 4482 */
+}
+ul.topiclist dd.lastpost {
+  float: right;
+}
+ul.topiclist dt .list-inner {
+  margin-right: none; /* 410px; */
+}
+.navbar + .navbar {
+  background: none;
+  box-shadow: none;
+  margin: -3px 0 0;
+}
+.crumb:not(:last-child) {
+  border: 1px solid #e6ddb3; /* ccbb66 */
+  border-radius: 8px;
+  color: #654C22;
+  background-color: #F4F0DD;
+/*
+  background-image: linear-gradient(to bottom, #F4F0DD 25%, #EBE4C6 75%, #DDCC80);
+*/
+  padding-right: 6px !important;
+}
+.crumb:not(:last-child):hover {
+  border:1px solid #DBCE90;
+  background-color: #E8DFB6;
+/*
+  background-image: linear-gradient(to bottom, #E8DFB6 30%, #DBCE90 70%, #BFAA40);
+*/
+  background-image: linear-gradient(to bottom, #F4F0DD 25%, #EBE4C6 75%, #DDCC80);
+}
+.crumb a:hover {
+  color: #663300;
+  text-shadow: 0 0 2px #FFFFFF;
+}
+#nav-footer .breadcrumbs {
+  display: none;
+}
+.action-bar.bar-top + .panel {
+  display: none;
+}
+.bg1 {
+  background-color: #FFFFF0;
+}
+.bg2 {
+  background-color: #FFFFFF;
+}
+#page-body h2.forum-title:first-child {
+  display: none;
+}
+.action-bar.bar-bottom {
+  display: none;
+}
+#wrap {
+  border: none;
+  padding: 0px;
+  background: #FFFFF0;
+}
+html, body {
+  background: #FFFFFF;
+}
+.forabg ul.topiclist li.row, .forumbg ul.topiclist li.row {
+  background: #FFFFF0;
+}
+.navbar.tabbed.not-static + .navbar.secondary {
+    padding: 0 5px;
+}
+.postprofile {
+    display: inline;
+    float: left;
+}
+/*
+.postprofile + .postbody {
+- удалить нахуй width: 100%; margin-left: -160px
+}
+*/
+.postprofile + .postbody > div {
+    margin-left: 4px;
+}
