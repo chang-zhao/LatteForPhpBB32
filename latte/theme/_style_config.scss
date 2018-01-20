@@ -8,7 +8,7 @@
 // Configuration file
 $show-logo:								true !default;	// true or false
 $center-logo:							false !default;	// true or false
-$logo-block-padding:					10px 0 !default;
+$logo-block-padding:					0; // 10px 0 !default;
 $responsive-hide-logo:					false !default;	// Hide logo on mobile devices. true or false
 
 $show-forum-title:						false !default;	// true or false
@@ -17,8 +17,8 @@ $profile-width:							150px !default;
 $profile-side:							left !default;	// left or right
 $post-margin:							($profile-width + 10px) !default;
 
-$use-wrapper:							true !default;	// true or false
-$max-width:								900px !default;	// Maximum width. Set to "none" to make layout fluid
+$use-wrapper:	false; // true !default;	// true or false
+$max-width:	none;	// 900px !default;	// Maximum width. Set to "none" to make layout fluid
 
 $split-forums:							true !default;	// Changes layout of forums list. Values are true or false
 
@@ -28,7 +28,7 @@ $tabbed-navigation:						true !default;	// true or false. Toggles tabbed navigat
 // Fonts
 //
 
-$font-size:								11px !default;	// Base font size
+$font-size:	12px;	// 11px !default;	// Base font size
 $font-family:							Verdana, Helvetica, Arial, sans-serif !default;	// Default font
 $line-height:							1.4 !default;	// Line height
 
@@ -110,8 +110,8 @@ $black-color:							#000 !default;		// Main color to mix with. Black for light s
 $white-color:							#fff !default;		// Opposite of $black-color
 
 // Page colors
-$page-background:						#f0ece0 !default;	// HTML element
-$content-background:					#dbd5c9 !default;	// Page inside content wrapper
+$page-background:						#FFFFFF; // f0ece0 !default;	// HTML element
+$content-background:					#FFFFFF; // dbd5c9 !default;	// Page inside content wrapper
 $content-border-color:					$content-background !default;	// Border color for content wrapper
 
 // Primary colors
